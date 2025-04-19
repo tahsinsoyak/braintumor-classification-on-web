@@ -11,7 +11,6 @@ This is a web-based application built using Flask and TensorFlow for detecting b
 - **Responsive Design**: The application is styled using Bootstrap for modern and responsive user experience.
 
 ## Technologies Used
-
 - **Backend**: Flask, Flask-Login, Flask-SQLAlchemy
 - **Machine Learning**: TensorFlow/Keras (Xception Model)
 - **Database**: SQLite
