@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Model Performance Metrics - Brain Tumor Detection</title>
+        {% include 'partials/header.html' %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    </head>
+    <body>
+        {% include 'partials/navbar.html' %}
+
+        <div class="container mt-5">
+            <h2 class="text-primary mb-4 text-center"><i class="fas fa-chart-line"></i> Model Performance Metrics</h2>
+            
+            <div class="card shadow-lg border-0 rounded-lg mb-4">
+                <div class="card-body">
+                    <h3>Training and Validation Loss & Accuracy</h3>
+                    <img src="{{ url_for('static', filename='images/metrics/training_validation.png') }}" 
+                         alt="Training and Validation Loss, Training and Validation Accuracy" 
+                         class="img-fluid">
+                </div>
+            </div>
+
+            <div class="card shadow-lg border-0 rounded-lg mb-4">
+                <div class="card-body">
+                    <h3>Confusion Matrix</h3>
+                    <img src="{{ url_for('static', filename='images/metrics/confusion_matrix.png') }}" 
+                         alt="Confusion Matrix" 
+                         class="img-fluid">
+                </div>
+            </div>
+
+            <div class="card shadow-lg border-0 rounded-lg mb-4">
+                <div class="card-body">
+                    <h3>Classification Report</h3>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Class</th>
+                                    <th>Precision</th>
+                                    <th>Recall</th>
+                                    <th>F1-Score</th>
+                                    <th>Support</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0.99</td>
+                                    <td>0.96</td>
+                                    <td>0.97</td>
+                                    <td>93</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0.96</td>
+                                    <td>0.98</td>
+                                    <td>0.97</td>
+                                    <td>51</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>0.97</td>
+                                    <td>0.98</td>
+                                    <td>0.97</td>
+                                    <td>96</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>0.99</td>
+                                    <td>1.00</td>
+                                    <td>0.99</td>
+                                    <td>87</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Accuracy</strong></td>
+                                    <td colspan="3">0.98</td>
+                                    <td>327</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Macro Avg</strong></td>
+                                    <td>0.98</td>
+                                    <td>0.98</td>
+                                    <td>0.98</td>
+                                    <td>327</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Weighted Avg</strong></td>
+                                    <td>0.98</td>
+                                    <td>0.98</td>
+                                    <td>0.98</td>
+                                    <td>327</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include 'partials/footer.html' %}
+    </body>
+</html>

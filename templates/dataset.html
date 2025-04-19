@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dataset - Brain Tumor Detection</title>
+    {% include 'partials/header.html' %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    {% include 'partials/navbar.html' %}
+
+    <div class="container mt-5">
+        <h2 class="text-primary mb-4 text-center"><i class="fas fa-database"></i> Dataset Overview</h2>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body">
+                <h3>Abstract</h3>
+                <p>
+                    A Brain tumor is considered one of the aggressive diseases among children and adults. Brain tumors account for 85 to 90 percent of all primary Central Nervous System (CNS) tumors. Every year, around 11,700 people are diagnosed with a brain tumor. The 5-year survival rate for people with a cancerous brain or CNS tumor is approximately 34 percent for men and 36 percent for women. Brain Tumors are classified as: Benign Tumor, Malignant Tumor, Pituitary Tumor, etc. Proper treatment, planning, and accurate diagnostics should be implemented to improve the life expectancy of the patients. The best technique to detect brain tumors is Magnetic Resonance Imaging (MRI). A huge amount of image data is generated through the scans. These images are examined by the radiologist. A manual examination can be error-prone due to the level of complexities involved in brain tumors and their properties.
+                </p>
+                <p>
+                    Application of automated classification techniques using Machine Learning (ML) and Artificial Intelligence (AI) has consistently shown higher accuracy than manual classification. Hence, proposing a system performing detection and classification by using Deep Learning Algorithms such as Convolutional Neural Network (CNN), Artificial Neural Network (ANN), and Transfer Learning (TL) would be helpful to doctors all around the world.
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body">
+                <h3>About Dataset</h3>
+                <p>
+                    A brain tumor is a collection or mass of abnormal cells in your brain. Your skull, which encloses your brain, is very rigid. Any growth inside such a restricted space can cause problems. Brain tumors can be cancerous (malignant) or noncancerous (benign). When benign or malignant tumors grow, they can cause the pressure inside your skull to increase, leading to brain damage and potentially life-threatening conditions.
+                </p>
+                <h4>The Importance of the Subject</h4>
+                <p>
+                    Early detection and classification of brain tumors is an important research domain in the field of medical imaging, helping in selecting the most convenient treatment methods to save patients' lives.
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body">
+                <h3>About the Dataset</h3>
+                <p>
+                    This dataset is a combination of the following three datasets: 
+                    <ul>
+                        <li>figshare</li>
+                        <li>SARTAJ dataset</li>
+                        <li>Br35H</li>
+                    </ul>
+                    The dataset contains 7023 images of human brain MRI classified into 4 classes: glioma, meningioma, no tumor, and pituitary. The no tumor class images were taken from the Br35H dataset. 
+                </p>
+                <p>
+                    **Note**: The size of the images in this dataset varies. You can resize the images to the desired size after pre-processing to improve model accuracy.
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body">
+                <h3>Usability and Licensing</h3>
+                <p>
+                    <strong>Usability:</strong> 8.75<br>
+                    <strong>License:</strong> CC0: Public Domain<br>
+                    <strong>Expected update frequency:</strong> Never
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body">
+                <h3>Training Dataset Composition</h3>
+                <p class="text-danger"><strong>Note: The dataset sizes for both training and testing have been adjusted. </strong></p>
+                <p>This folder contains 5712 images of brain tumors used to train the model:</p>
+                <ul>
+                    <li>glioma: 1321 files</li>
+                    <li>meningioma: 1339 files</li>
+                    <li>no tumor: 1595 files</li>
+                    <li>pituitary: 1457 files</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body">
+                <h3>Test Dataset Composition</h3>
+                <p>This folder contains 1311 images of brain tumors used to test the model:</p>
+                <ul>
+                    <li>glioma: 300 files</li>
+                    <li>meningioma: 306 files</li>
+                    <li>no tumor: 405 files</li>
+                    <li>pituitary: 300 files</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card shadow-lg border-0 rounded-lg mb-4">
+            <div class="card-body text-center">
+                <h3>Dataset Label Distribution</h3>
+                <img src="{{ url_for('static', filename='images/metrics/datasetdist.png') }}" 
+                     alt="Dataset Distribution" 
+                     class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+    {% include 'partials/footer.html' %}
+</body>
+</html>
