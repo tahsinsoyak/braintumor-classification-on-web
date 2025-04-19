@@ -1,0 +1,359 @@
+[
+    {
+        "filename": "4e8ab427-6a0d-487a-b607-b24a6d017082.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "99.97",
+        "uploaded_time": "2024-11-02 19:25:41",
+        "detection_time": 0.17
+    },
+    {
+        "filename": "a31c5a7a-3c6a-4705-b44a-853cd9176a26.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "97.13",
+        "uploaded_time": "2024-11-02 19:26:51",
+        "detection_time": 0.28
+    },
+    {
+        "filename": "1c3d7bc9-b26d-4335-aab1-8a99d7c4673c.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "99.90",
+        "uploaded_time": "2024-11-02 19:26:57",
+        "detection_time": 0.26
+    },
+    {
+        "filename": "25c4fb70-425f-42e5-8fa3-6bbd21896007.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.64",
+        "uploaded_time": "2024-11-02 19:27:28",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "fc46699c-cd49-457c-9046-f1ed3ce30ad8.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "99.97",
+        "uploaded_time": "2024-11-02 19:27:41",
+        "detection_time": 0.29
+    },
+    {
+        "filename": "c7154acc-2c75-445e-9e56-ecc188b25537.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-11-02 19:27:56",
+        "detection_time": 0.23
+    },
+    {
+        "filename": "0c25e1e7-6160-4039-8523-af437adcc5bb.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-11-02 19:32:18",
+        "detection_time": 3.28
+    },
+    {
+        "filename": "d26d3f14-266b-4ad6-8e80-a8b2bb800324.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:15:27",
+        "detection_time": 3.52
+    },
+    {
+        "filename": "b83467c7-fc96-4001-b0f4-8ab297e15eac.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:16:31",
+        "detection_time": 0.19
+    },
+    {
+        "filename": "6dc97141-17af-4f9d-88ac-9e8bc6203de5.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:16:39",
+        "detection_time": 0.18
+    },
+    {
+        "filename": "ddc0db2d-49bb-4adb-ab14-e5a3af2069b1.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:16:53",
+        "detection_time": 0.48
+    },
+    {
+        "filename": "cb327968-c39c-4fd6-a7f3-a739d32221ea.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:23:24",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "148bbc66-5a7c-4313-b5ab-05a411920bf3.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:23:32",
+        "detection_time": 0.21
+    },
+    {
+        "filename": "2e59936d-b3ba-41cd-8738-8ed1e4a0d70b.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:23:39",
+        "detection_time": 0.22
+    },
+    {
+        "filename": "c2c93319-ccf4-4711-a036-1b4f5e2d3e82.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:28:48",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "e6e4541b-179d-4730-a15b-bed24ef25a3d.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:28:55",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "bcfa2532-3d5d-4dd3-b995-e848a8a30d1b.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:28:56",
+        "detection_time": 0.17
+    },
+    {
+        "filename": "13c11d17-8e33-48db-8782-049bd92c53b1.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "82.21",
+        "uploaded_time": "2024-12-14 00:29:27",
+        "detection_time": 7.51
+    },
+    {
+        "filename": "584bbbb5-b58e-4218-a384-6356b7461dd5.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "96.19",
+        "uploaded_time": "2024-12-14 00:29:35",
+        "detection_time": 0.29
+    },
+    {
+        "filename": "d7131870-e4c5-47ee-bc59-03e61983801f.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.94",
+        "uploaded_time": "2024-12-14 00:29:42",
+        "detection_time": 0.29
+    },
+    {
+        "filename": "5786b2fa-11d7-4438-bff7-d8da73e7db6b.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "86.17",
+        "uploaded_time": "2024-12-14 00:29:48",
+        "detection_time": 0.33
+    },
+    {
+        "filename": "d66588fb-3fe1-4bfc-9fe9-188423c28cb7.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.51",
+        "uploaded_time": "2024-12-14 00:30:32",
+        "detection_time": 5.69
+    },
+    {
+        "filename": "d7b94369-8ea5-4204-9f2b-701266e09d78.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "92.10",
+        "uploaded_time": "2024-12-14 00:30:41",
+        "detection_time": 0.3
+    },
+    {
+        "filename": "e24ebb33-9fec-4b7e-b324-f8b51a07eb35.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.99",
+        "uploaded_time": "2024-12-14 00:30:48",
+        "detection_time": 0.27
+    },
+    {
+        "filename": "a3e8637d-54e0-42d2-99f4-dbad4efb1e9b.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "68.21",
+        "uploaded_time": "2024-12-14 00:30:54",
+        "detection_time": 0.25
+    },
+    {
+        "filename": "f20cf878-4d2c-488f-bce0-0727e4a23688.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "98.05",
+        "uploaded_time": "2024-12-14 00:31:26",
+        "detection_time": 2.18
+    },
+    {
+        "filename": "e7bc29ae-4a73-4a58-bbdd-b309788a0739.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "99.99",
+        "uploaded_time": "2024-12-14 00:31:37",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "2ab2b4c3-2769-4cf7-9f3b-c75c3aab5d40.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.92",
+        "uploaded_time": "2024-12-14 00:31:42",
+        "detection_time": 0.23
+    },
+    {
+        "filename": "56ce8582-420f-4083-b78f-3607578e252e.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "99.80",
+        "uploaded_time": "2024-12-14 00:31:48",
+        "detection_time": 0.21
+    },
+    {
+        "filename": "fae118c3-36c6-4345-ac0c-21756bcce6d8.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "80.88",
+        "uploaded_time": "2024-12-14 00:32:52",
+        "detection_time": 3.61
+    },
+    {
+        "filename": "954d9811-eea9-46a8-8e21-508bb78ca661.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.59",
+        "uploaded_time": "2024-12-14 00:32:59",
+        "detection_time": 0.19
+    },
+    {
+        "filename": "adb52b19-2efc-440d-8e93-e0e4331d1be8.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "97.60",
+        "uploaded_time": "2024-12-14 00:33:05",
+        "detection_time": 0.22
+    },
+    {
+        "filename": "6d4101af-60b0-4134-9045-48ac6fd4f868.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "73.43",
+        "uploaded_time": "2024-12-14 00:33:11",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "0dc36a83-da66-4ab2-baf1-e550a1bf89c3.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:34:35",
+        "detection_time": 4.65
+    },
+    {
+        "filename": "0dd75c55-84c4-44f4-b431-cd6fcb13b8c5.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "37.94",
+        "uploaded_time": "2024-12-14 00:34:43",
+        "detection_time": 0.2
+    },
+    {
+        "filename": "ec7a9e75-f01e-4d14-b02a-169400af0808.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:34:50",
+        "detection_time": 0.45
+    },
+    {
+        "filename": "086408a5-4441-40ee-9f0b-46c27b13ee38.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "61.93",
+        "uploaded_time": "2024-12-14 00:34:58",
+        "detection_time": 0.24
+    },
+    {
+        "filename": "c24871ae-9d17-4841-946e-72f95d86fed1.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "71.34",
+        "uploaded_time": "2024-12-14 00:41:04",
+        "detection_time": 2.72
+    },
+    {
+        "filename": "e0eaa375-cfb4-4b1f-a875-257051908bd9.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "95.46",
+        "uploaded_time": "2024-12-14 00:41:13",
+        "detection_time": 0.24
+    },
+    {
+        "filename": "c7218802-5697-4632-ac0e-7b6c1308a374.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "100.00",
+        "uploaded_time": "2024-12-14 00:41:19",
+        "detection_time": 0.24
+    },
+    {
+        "filename": "571d084d-78c2-4638-b601-b338ecc6d642.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "99.95",
+        "uploaded_time": "2024-12-14 00:41:26",
+        "detection_time": 0.22
+    },
+    {
+        "filename": "5410c454-b243-4584-ac0e-25509bd4ee3e.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "98.76",
+        "uploaded_time": "2024-12-31 16:56:26",
+        "detection_time": 3.25
+    },
+    {
+        "filename": "eba145f4-0140-4e20-ba6d-fb249801da7f.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "99.80",
+        "uploaded_time": "2024-12-31 16:56:35",
+        "detection_time": 0.31
+    },
+    {
+        "filename": "19851deb-0467-4716-a88f-170f534d193a.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.97",
+        "uploaded_time": "2024-12-31 16:56:43",
+        "detection_time": 0.25
+    },
+    {
+        "filename": "096b3427-ba3f-4a2f-951e-f3b75ddc376f.jpg",
+        "predicted_label": "pituitary_tumor",
+        "confidence": "50.83",
+        "uploaded_time": "2024-12-31 16:56:50",
+        "detection_time": 0.24
+    },
+    {
+        "filename": "66847200-45bf-4126-b074-3ec61727a456.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.97",
+        "uploaded_time": "2024-12-31 16:57:00",
+        "detection_time": 0.25
+    },
+    {
+        "filename": "ea7ec8dd-f9a7-4a9f-bbfc-0eb67ff9f058.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "99.80",
+        "uploaded_time": "2024-12-31 16:57:07",
+        "detection_time": 0.26
+    },
+    {
+        "filename": "ca06e7a0-e30e-4c5a-bf76-c79f2034536d.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "98.76",
+        "uploaded_time": "2024-12-31 16:57:16",
+        "detection_time": 0.26
+    },
+    {
+        "filename": "75567b4b-def9-44a9-8121-42bea608360f.jpg",
+        "predicted_label": "glioma_tumor",
+        "confidence": "98.76",
+        "uploaded_time": "2024-12-31 16:58:51",
+        "detection_time": 2.93
+    },
+    {
+        "filename": "6eaca9c9-657a-4d94-be77-901adb29f16b.jpg",
+        "predicted_label": "no_tumor",
+        "confidence": "99.97",
+        "uploaded_time": "2024-12-31 16:59:08",
+        "detection_time": 0.26
+    },
+    {
+        "filename": "9597f45c-d00c-4925-ae5e-ce10c90c103a.jpg",
+        "predicted_label": "meningioma_tumor",
+        "confidence": "99.80",
+        "uploaded_time": "2024-12-31 16:59:28",
+        "detection_time": 0.27
+    }
+]
