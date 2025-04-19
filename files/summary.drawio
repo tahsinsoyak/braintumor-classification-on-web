@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="yHR2shr4FXOC8Ng8P75a">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eP45iqY4_a__ICQsiaUS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-1" target="eP45iqY4_a__ICQsiaUS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-1" value="Text" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="327" y="-38" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-3" target="eP45iqY4_a__ICQsiaUS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-3" value="Ses Kaydı" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="57" y="-38" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-5" target="eP45iqY4_a__ICQsiaUS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-5" value="ASR" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="187" y="-38" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-9" target="eP45iqY4_a__ICQsiaUS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-9" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="457" y="-38" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-11" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.document;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="737" y="-38" width="32" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-12" value="Flask" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="597" y="-38" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-12" target="eP45iqY4_a__ICQsiaUS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-20" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="43" y="-53" width="740" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-22" value="Proje Yapısı" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-100" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-23" target="eP45iqY4_a__ICQsiaUS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-23" target="eP45iqY4_a__ICQsiaUS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-23" value="Ana Ekran" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-24" value="Üye Ol" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-25" target="eP45iqY4_a__ICQsiaUS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-25" value="Üye Girişi" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="146" y="160" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" edge="1" parent="1" source="eP45iqY4_a__ICQsiaUS-27" target="eP45iqY4_a__ICQsiaUS-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-27" value="Ses Kaydı Yükle" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="146" y="230" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-28" value="Sonuçlar" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="146" y="300" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-34" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/upload-128.png;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="204" y="242" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-36" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.document;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;" vertex="1" parent="1">
+          <mxGeometry x="208" y="316.32" width="10" height="13.68" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-38" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;fillColor=none;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="250" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eP45iqY4_a__ICQsiaUS-39" value="Web Yapısı" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

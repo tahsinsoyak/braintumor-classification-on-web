@@ -1,0 +1,142 @@
+
+scp -r .\brain_tumor_flask\ root@104.248.26.161:
+
+sudo apt update
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.10
+sudo apt install python3.10-venv
+
+
+
+cd brain_tumor_flask/
+
+
+sudo mkdir -p /home/root/brain_tumor_flask
+
+sudo mv /root/brain_tumor_flask/* /home/root/brain_tumor_flask/
+
+sudo chown -R root:www-data /home/root/brain_tumor_flask
+
+cd ..
+cd ..
+
+cd home/root/brain_tumor_flask/
+
+sudo chmod -R 755 /home/root/brain_tumor_flask
+
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip3 install -r requirements.txt
+
+sudo apt-get install -y libgl1
+
+
+sudo vim /etc/systemd/system/flask.service
+
+[Unit]
+Description=Gunicorn instance to serve Flask app
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/home/root/brain_tumor_flask
+Environment="PATH=/home/root/brain_tumor_flask/venv/bin"
+ExecStart=/home/root/brain_tumor_flask/venv/bin/gunicorn --workers 2 --bind unix:/home/root/brain_tumor_flask/flask.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl start flask
+sudo systemctl enable flask
+sudo systemctl status flask
+sudo systemctl restart flask
+
+
+sudo chown -R root:www-data /home/root/brain_tumor_flask
+sudo chmod -R 775 /home/root/brain_tumor_flask
+sudo journalctl -u flask.service
+sudo touch /home/root/brain_tumor_flask/flask.sock
+sudo chmod 777 /root/brain_tumor_flask/flask.sock
+
+
+sudo apt install nginx
+
+sudo vim /etc/nginx/sites-available/flask.conf
+
+
+
+server {
+    listen 80;
+    server_name ozgesiyavus.com.tr www.ozgesiyavus.com.tr;
+
+    # Handle static files
+    location /static/ {
+        alias /home/root/brain_tumor_flask/static/;  # Ensure this path is correct
+    }
+
+    # Handle media files
+    location /media/ {
+        alias /home/root/brain_tumor_flask/media/;  # Ensure this path is correct
+    }
+
+    # Proxy requests to the Flask application
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/root/brain_tumor_flask/flask.sock;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    location /templates/ {
+        alias /home/root/brain_tumor_flask/templates/;  # Ensure this path is correct
+    }
+}
+
+sudo ln -s /etc/nginx/sites-available/flask.conf /etc/nginx/sites-enabled
+
+sudo ufw allow 'Nginx Full'
+
+sudo nginx -t
+
+sudo systemctl restart nginx
+
+
+sudo ufw enable
+sudo ufw status
+sudo ufw allow ssh
+sudo ufw status
+
+sudo tail /var/log/nginx/error.log
+
+sudo systemctl daemon-reload
+sudo systemctl restart flask
+
+sudo chown root:www-data /home/root/strawberryaiweb/flask.sock
+sudo chmod 660 /home/root/strawberryaiweb/flask.sock
+sudo systemctl reload nginx
+
+sudo journalctl -u flask.service
+
+
+
+sudo snap install core; sudo snap refresh core
+
+sudo snap install --classic certbot
+
+sudo certbot --nginx -d ozgesiyavus.com.tr
+
+--> email 
+
+sudo systemctl restart flask
+sudo systemctl reload nginx
+
+

@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="OOdaghSpaZnvd4Qsr6bT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b9OaXO3RXlTWPImJeYMB-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="100" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-1" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;      Data Ingestion Layer    &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-2" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt; Load Training Images&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt; Load Testing Images&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt; Read Directories (OS)&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="125" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="100" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-4" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;      Preprocessing Layer     &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-5" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&amp;nbsp;&lt;/span&gt;Resize Images &lt;span class=&quot;hljs-keyword&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;150&lt;/span&gt;x150&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Label Encoding&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Shuffle Data&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Train&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt;Test Split&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#CDA2BE;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4XtiUh52gplWN3ERDur-6" target="q4XtiUh52gplWN3ERDur-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="125" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-7" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;      Model Architecture Layer    &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="125" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-8" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use Xception Base Model&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: initial;&quot;&gt;Add&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Dense &lt;/span&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Dropout Layers&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: initial;&quot;&gt;Global&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Avg Pooling&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Compile Model &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: initial;&quot;&gt;with&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Adam&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="145" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="255" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-10" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;&amp;nbsp;Training &lt;span class=&quot;hljs-operator&quot;&gt;&amp;amp;&lt;/span&gt; Validation&amp;nbsp;&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="260" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-11" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Train &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: initial;&quot;&gt;on&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Training Split&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Validate &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: initial;&quot;&gt;on&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Validation Split&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Apply Early Stopping&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Save Best Model Checkpoint&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TensorBoard Logging&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Reduce LR &lt;/span&gt;&lt;span class=&quot;hljs-keyword&quot; style=&quot;background-color: initial;&quot;&gt;on&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Plateau&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="280" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="395" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-15" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;&amp;nbsp;Evaluation &lt;span class=&quot;hljs-operator&quot;&gt;&amp;amp;&lt;/span&gt; Reporting Layer    &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="400" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4XtiUh52gplWN3ERDur-16" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&amp;nbsp;Generate Confusion Matrix&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot; style=&quot;background-color: initial; font-size: 11px;&quot;&gt;-&amp;nbsp;Classification Report&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Predict &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-keyword&quot;&gt;New&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Test Data&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#99FFCC;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="420" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="367.5" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-2" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;&amp;nbsp;Flask API Layer&amp;nbsp;&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="367.5" width="140" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-3" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Handle Incoming Requests&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Accept Image File Input&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Load Trained Model&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Predict Image Label&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;Return&lt;/span&gt; Label &lt;span class=&quot;hljs-operator&quot;&gt;&amp;amp;&lt;/span&gt; Confidence&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Log API Requests&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="387.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="382.5" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-5" value="&lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;      Web Frontend Layer    &lt;span class=&quot;hljs-operator&quot;&gt;|&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Poppins;fontStyle=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="382.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-6" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;User&lt;/span&gt; Upload Form (HTML)&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Display Prediction Results&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;Show&lt;/span&gt; Confidence Scores&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Handle Errors Gracefully&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=11;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="402.5" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="70" width="467" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillColor=none;rotation=90;dashed=1;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-384.25" y="170" width="428.5" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.179;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KwNGy7X1bEBxDtnYW4Ts-15" target="KwNGy7X1bEBxDtnYW4Ts-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=2;size=20;indent=5;fillColor=none;rotation=0;dashed=1;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="335" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-21" value="&lt;font size=&quot;1&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot; face=&quot;Poppins&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;DATA&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="70" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="b9OaXO3RXlTWPImJeYMB-2" target="q4XtiUh52gplWN3ERDur-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-23" value="&lt;font face=&quot;Poppins&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;MODEL&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-215" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.475;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q4XtiUh52gplWN3ERDur-11" target="q4XtiUh52gplWN3ERDur-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-28" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="417.5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-30" value="&lt;font face=&quot;Poppins&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;WEB&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-635" y="335" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KwNGy7X1bEBxDtnYW4Ts-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.82;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KwNGy7X1bEBxDtnYW4Ts-16" target="KwNGy7X1bEBxDtnYW4Ts-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-420" y="360" as="sourcePoint" />
+            <mxPoint x="-330" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
