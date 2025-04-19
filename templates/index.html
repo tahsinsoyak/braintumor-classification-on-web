@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Brain Tumor Detection</title>
+{% include 'partials/header.html' %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+<body>
+    {% include 'partials/navbar.html' %}
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="card shadow-lg border-0 rounded-lg">
+                    <div class="card-body text-center">
+                        <h1 class="card-title mb-4 text-primary">
+                            <i class="fas fa-upload"></i> Upload MRI Image
+                        </h1>
+                        <form action="/predict" method="post" enctype="multipart/form-data" id="uploadForm">
+                            <div class="form-group mb-4">
+                                <input type="file" name="file" accept="image/*" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="fas fa-file-import"></i> Detect Brain Tumor
+                            </button>
+                        </form>
+
+                        <div id="loadingSpinner" class="mt-4 d-none">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                            <p class="lead mt-3">Model is working to detect brain tumor...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'partials/footer.html' %}
+    <script>
+        document.getElementById('uploadForm').onsubmit = function () {
+            document.getElementById('loadingSpinner').classList.remove('d-none');
+        };
+    </script>
+</body>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</html>
