@@ -22,7 +22,7 @@ This is a web-based application built using Flask and TensorFlow for detecting b
 
 ### Requirements
 
-- Python 3.x
+- Python 3.10
 - Flask
 - TensorFlow/Keras
 - OpenCV
